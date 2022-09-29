@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 
 const Card = (props) => {
-    const {addToList, times} = props;
+    const {addToList} = props;
     const {name, img, time, details} = props.card;
     return (
         <div className='card'>
@@ -11,13 +11,10 @@ const Card = (props) => {
                 <h3>{name}</h3>
                 <p className='card-details'>{details}</p>
                 <p>Time required: <strong>{time}s</strong></p>
-                <p>{times}</p>
             </div>
             <div className='btn'>
                 <button onClick={addToList}>Add to list</button>
             </div>
-            
-            
         </div>
     );
 };

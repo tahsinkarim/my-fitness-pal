@@ -28,14 +28,11 @@ const Main = () => {
                             key={card.id} 
                             card={card}
                             addToList={()=>addToList(card)}
-                            times={time}
-                            >
-                            </Card> )
+                            ></Card> )
                     }
-                </div>
-                
+                </div> 
             </div>
-            <User></User>
+            <User time={time}></User>
         </div>
     );
 };

@@ -1,17 +1,15 @@
 import React from 'react';
-import user from '../../user.png';
+import Datacard from '../Datacard/Datacard';
+import Info from '../Info/Info';
+
 import './User.css';
 
-const User = () => {
+const User = ({time}) => {
     return (
         <div className='user-container'>
-            <div className="user">
-                <img src={user} alt="user" />
-                <div className="user-info">
-                    <h3 className="user-name">Johnny Bravo</h3>
-                    <p className="user-location"><small>Oslo, Canada</small> </p>
-                </div>
-            </div>
+            <Info></Info>
+            <Datacard name='Exercise Time' time={time}></Datacard>
+            <Datacard name='Break time'></Datacard>
         </div>
     );
 };
