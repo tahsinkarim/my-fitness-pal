@@ -2,3 +2,27 @@
   background-color: #fff;
   padding: 20px 16px;
 }
+.sticky {
+  position: sticky;
+  top: 24px;
+}
+.button-container {
+  background-color: rgba(211, 211, 211, 0.63);
+  padding: 8px 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.button-container button {
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 37px;
+  font-weight: 700;
+  color: #5a5a5a;
+}
+.button-container button:hover,
+.button-container button:focus {
+  background-color: #49c5b6;
+  color: #fff;
+}
