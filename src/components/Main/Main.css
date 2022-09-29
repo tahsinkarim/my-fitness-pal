@@ -8,6 +8,9 @@
   padding-left: 38px;
   padding-top: 60px;
 }
+.main-title .icon {
+  font-size: 32px;
+}
 .cyan {
   color: #45b6a9;
 }

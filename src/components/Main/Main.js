@@ -1,3 +1,5 @@
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
 import Questions from '../Questions/Questions';
@@ -22,7 +24,7 @@ const Main = () => {
         <div className='main'>
             <div className='cards-container'>
                 <div className="main-title">
-                    <h2 className='cyan'>My Fitness Pal</h2>
+                    <h2 className='cyan'><span className='icon'><FontAwesomeIcon icon={faDumbbell} /></span> My Fitness Pal</h2>
                     <h3>Select today's exercise</h3>
                 </div>
                 <div className="cards">
