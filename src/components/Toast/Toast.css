@@ -9,6 +9,11 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.toggle-btn:hover {
+  background-color: #3ca196;
+  scale: 0.99;
 }
 .toast {
   background-color: #a928ed;
@@ -23,6 +28,7 @@
   transform: translateX(-50%);
   cursor: pointer;
 }
+
 .toast-hidden {
   display: none;
 }
