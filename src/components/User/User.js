@@ -17,6 +17,16 @@ const User = ({time}) => {
         setBreakTime(parseInt(newTime))
     },[breakTime])
 
+    const [toast, setToast] = useState(0)
+
+    const toggleToast = () =>{
+        if (!toast){
+            setToast(1)
+        }else {
+            setToast(0)
+        }
+    }
+
     return (
         <div className='user-container'>
             <div className='sticky'>
@@ -34,8 +44,11 @@ const User = ({time}) => {
                 <h3>Exercise Details</h3>
                 <Datacard name='Exercise Time' time={time}></Datacard>
                 <Datacard name='Break time' time={breakTime}></Datacard>
+                <button className='toggle-btn' onClick={toggleToast}>Activity Completed</button>
+                <div className={toast ? 'toast' : 'toast-hidden'}>
+                    <p onClick={toggleToast}>Congratulation!! You've completed your tasks for today.</p>
+                </div>
             </div>
-            
         </div>
     );
 };
