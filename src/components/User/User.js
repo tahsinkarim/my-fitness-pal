@@ -7,6 +7,10 @@ import './User.css';
 const User = ({time}) => {
     const [breakTime, setBreakTime] = useState(0)
 
+    if(!localStorage.getItem('time')){
+        localStorage.setItem('time', 0)
+    }
+
     const sendBreakTimeToStorage = (id) =>{
         localStorage.setItem('time',id)
         setBreakTime(localStorage.getItem('time'))
@@ -14,7 +18,7 @@ const User = ({time}) => {
 
     useEffect( () =>{
         const newTime = localStorage.getItem('time')
-        setBreakTime(parseInt(newTime))
+        setBreakTime(newTime)
     },[breakTime])
 
     const [toast, setToast] = useState(0)
