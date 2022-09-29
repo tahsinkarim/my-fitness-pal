@@ -1,0 +1,14 @@
+.questions {
+  background-color: #fff;
+  padding: 18px;
+  margin: 20px;
+  border-radius: 8px;
+}
+.question {
+  color: #5a5a5a;
+}
+.question-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}

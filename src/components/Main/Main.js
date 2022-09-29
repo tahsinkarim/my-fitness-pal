@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import Questions from '../Questions/Questions';
 import User from '../User/User';
 import './Main.css';
 
@@ -33,6 +34,7 @@ const Main = () => {
                             ></Card> )
                     }
                 </div> 
+                <Questions></Questions>
             </div>
             <User time={time}></User>
         </div>
