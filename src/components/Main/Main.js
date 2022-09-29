@@ -18,7 +18,7 @@ const Main = () => {
         setTime(newTime)
     }
     return (
-        <div>
+        <div className='main'>
             <div className='cards-container'>
                 <h2>My Fitness Pal</h2>
                 <h3>Select today's exercise</h3>
