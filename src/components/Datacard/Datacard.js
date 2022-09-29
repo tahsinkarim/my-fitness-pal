@@ -1,7 +1,7 @@
 import React from 'react';
-import './Datacard.css';
+import './DataCard.css';
 
-const Datacard = ({name, time}) => {
+const DataCard = ({name, time}) => {
     return (
             <div className='data-container'>
                 <p className='data-title'>{name}</p>
@@ -10,4 +10,4 @@ const Datacard = ({name, time}) => {
     );
 };
 
-export default Datacard;
+export default DataCard;

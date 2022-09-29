@@ -27,33 +27,6 @@
   background-color: #49c5b6;
   color: #fff;
 }
-.toggle-btn {
-  width: 100%;
-  padding: 7px;
-  background-color: #49c5b6;
-  color: whitesmoke;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.toast {
-  background-color: #a928ed;
-  color: white;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  right: 50%;
-  width: 250px;
-  padding: 12px;
-  border-radius: 8px;
-  transform: translateX(-50%);
-}
-.toast-hidden {
-  display: none;
-}
 @media screen and (max-width: 530px) {
   .user-container {
     margin-top: 18px;

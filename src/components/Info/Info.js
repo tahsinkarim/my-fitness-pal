@@ -12,21 +12,21 @@ const Info = () => {
                 <img src={user} alt="user" />
                 <div className="user-info">
                     <h3 className="user-name">Karen Elizabeth</h3>
-                    <p className="user-location"><span><FontAwesomeIcon icon={faLocationDot} /></span> <small>Oslo, Canada</small> </p>
+                    <p className="user-location"><span><FontAwesomeIcon icon={faLocationDot} /></span> <span className='text-small'>Oslo, Canada</span> </p>
                 </div>
             </div>
             <div className="user-personal-info">
                 <div>
-                    <p>75<small>kg</small></p>
-                    <p><small>Weight</small></p>
+                    <p>75<span className='text-small'>kg</span></p>
+                    <p><span className='text-small'>Weight</span></p>
                 </div>
                 <div>
                     <p>6.3</p>
-                    <p><small>Height</small></p>
+                    <p><span className='text-small'>Height</span></p>
                 </div>
                 <div>
-                    <p>25<small>yrs</small></p>
-                    <p><small>Age</small></p>
+                    <p>25<span className='text-small'>yrs</span></p>
+                    <p><span className='text-small'>Age</span></p>
                 </div>
             </div>
         </div>
