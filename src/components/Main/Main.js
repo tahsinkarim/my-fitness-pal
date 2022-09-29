@@ -20,8 +20,10 @@ const Main = () => {
     return (
         <div className='main'>
             <div className='cards-container'>
-                <h2>My Fitness Pal</h2>
-                <h3>Select today's exercise</h3>
+                <div className="main-title">
+                    <h2 className='cyan'>My Fitness Pal</h2>
+                    <h3>Select today's exercise</h3>
+                </div>
                 <div className="cards">
                     {
                         cards.map( card => <Card 

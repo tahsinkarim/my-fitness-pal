@@ -41,3 +41,12 @@
   bottom: 16px;
   cursor: pointer;
 }
+@media screen and (max-width: 470px) {
+  .card {
+    width: 90%;
+    height: 500px;
+  }
+  .card img {
+    width: 90%;
+  }
+}

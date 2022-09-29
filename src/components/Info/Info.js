@@ -12,7 +12,18 @@ const Info = () => {
                 </div>
             </div>
             <div className="user-personal-info">
-                <div>personal info here</div>
+                <div>
+                    <p>75<small>kg</small></p>
+                    <p><small>Weight</small></p>
+                </div>
+                <div>
+                    <p>6.3</p>
+                    <p><small>Height</small></p>
+                </div>
+                <div>
+                    <p>25<small>yrs</small></p>
+                    <p><small>Age</small></p>
+                </div>
             </div>
         </div>
     );

@@ -31,6 +31,7 @@ const User = ({time}) => {
                         <button onClick={() =>sendBreakTimeToStorage(50)}>50s</button>
                     </div>
                 </div>
+                <h3>Exercise Details</h3>
                 <Datacard name='Exercise Time' time={time}></Datacard>
                 <Datacard name='Break time' time={breakTime}></Datacard>
             </div>

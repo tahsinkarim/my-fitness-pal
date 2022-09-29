@@ -1,6 +1,15 @@
 .main {
   display: grid;
   grid-template-columns: 5fr 2fr;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main-title {
+  padding-left: 38px;
+  padding-top: 60px;
+}
+.cyan {
+  color: #45b6a9;
 }
 .cards {
   display: grid;
@@ -24,7 +33,7 @@
   .main {
     display: block;
   }
-  .card {
+  .cards {
     margin: 0 auto;
   }
 }
