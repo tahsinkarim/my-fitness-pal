@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import User from '../User/User';
 import './Main.css';
 
 const Main = () => {
@@ -10,10 +11,11 @@ const Main = () => {
         .then(data => setCards(data))
     },[])
 
-    let time = 0;
+    const [time, setTime] = useState(0)
     const addToList = (card) =>{
-        time = time + parseInt(card.time)
+        const newTime = time + parseInt(card.time)
         console.log(time)
+        setTime(newTime)
     }
     return (
         <div>
@@ -26,13 +28,14 @@ const Main = () => {
                             key={card.id} 
                             card={card}
                             addToList={()=>addToList(card)}
+                            times={time}
                             >
                             </Card> )
                     }
                 </div>
                 
             </div>
-            <div></div>
+            <User></User>
         </div>
     );
 };
