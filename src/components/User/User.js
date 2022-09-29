@@ -4,7 +4,7 @@ import './User.css';
 
 const User = () => {
     return (
-        <div>
+        <div className='user-container'>
             <div className="user">
                 <img src={user} alt="user" />
                 <div className="user-info">

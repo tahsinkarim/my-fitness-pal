@@ -4,62 +4,62 @@
     "img": "./images/walking.jpg",
     "name": "Walking",
     "time": 30,
-    "details": "Walking is a great way to improve or maintain your overall health. It can strengthen bones, reduce excess body fat, and boost muscle power and endurance."
+    "details": "Walking is a great way to improve or maintain your overall health."
   },
   {
     "id": "6334a4dab192eb3058ffe8af",
     "img": "./images/running.jpg",
     "name": "Running",
     "time": 30,
-    "details": "Studies have shown that consistent running can lower blood pressure and resting heart rate, improve blood sugar control, lower triglycerides, and lower cholesterol."
+    "details": "Consistent running can lower blood pressure and improve blood sugar."
   },
   {
     "id": "6334a4da93fb1bc60fc792bd",
     "img": "./images/cycling.jpg",
     "name": "Cycling",
     "time": 40,
-    "details": "Regular or daily cycling has been found to prevent weight gain, fight depression, and help stave off a host of health problems, including heart disease, cancer, and diabetes."
+    "details": "Regular or daily cycling has been found to prevent weight gain."
   },
   {
     "id": "6334a4da834dd1bc230c07ff",
     "img": "./images/plank.jpg",
     "name": "Planks",
     "time": 20,
-    "details": "Planks are perfect for burning belly fat because they engage multiple muscles at once, boosting the metabolic rate and benefiting core strength."
+    "details": "Planks are perfect for burning belly fat."
   },
   {
     "id": "6334a4da8aa4c7d4db4ffe37",
     "img": "./images/sideplank.jpg",
     "name": "Side Planks",
     "time": 20,
-    "details": "Side planks work the deep spinal stabilizing muscle quadratus lumborum . Keeping this muscle strong can help reduce your risk of a back injury."
+    "details": "Side planks work the deep spinal stabilizing muscle quadratus lumborum."
   },
   {
     "id": "6334a4dafdc87a947d32473e",
     "img": "./images/pushup.jpg",
     "name": "Pushups",
     "time": 20,
-    "details": "The push-up helps to build muscle and improve strength throughout the upper body. It targets the muscles in your chest , arms and the shoulders."
+    "details": "The push-up helps to build muscle and improve strength."
   },
   {
     "id": "6334a4da29b3a7ba28f395a6",
     "img": "./images/situp.jpg",
     "name": "Sit Ups",
     "time": 30,
-    "details": "When you do sit-ups every day, your back and hip muscles become more flexible. A flexible back and hips improve circulation, as well as reduce stress."
+    "details": "When you do sit-ups every day, your back and hip muscles become more flexible."
   },
   {
     "id": "6334a4da5a9bd8b0d8fe9950",
     "img": "./images/swimming.jpg",
     "name": "Swimming",
     "time": 35,
-    "details": "Just 30 minutes of swimming three times per week can boost your energy levels through increased metabolic rate. Exercising without the sweat"
+    "details": "Swimming three times per week can boost your energy levels through increased metabolic rate."
   },
   {
     "id": "6334a4da16cbc2bbe10dcdda",
     "img": "./images/yoga.jpg",
     "name": "Yoga",
     "time": 25,
-    "details": "Yoga has been found to improve quality of life, reduce stress, anxiety, insomnia, depression and back pain."
+    "details": "Yoga has been found to improve quality of life and reduce stress."
   }
 ]
